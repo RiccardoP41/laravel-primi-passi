@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #002d75;
+}
+
+header ul li a:hover {
+  color: #0080FF;
+}
+
+main {
+  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/66/57/13/32/700_FO66571332_d43163059589e393bd4f774b441303f4.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/carte-da-parati-spighe-di-grano-nel-campo-su-sfondo-bianco.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+main h2 {
+  font-weight: bold;
+  color: #002d75;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+main .cards .card {
+  margin: 20px 30px;
+  position: relative;
+}
+
+main .cards .card h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+main .cards .card img {
+  width: 350px;
+}
+
+main .cards .card img:hover {
+  border: 3px solid #002d75;
+}
+
+main .cards .card img:hover h3 {
+  display: block;
+}
+
+footer {
+  background-color: #f9cc82;
+  padding: 20px;
+  display: flex;
+}
+
+footer img {
+  width: 150px;
+  height: auto;
+}
+
