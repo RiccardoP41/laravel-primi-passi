@@ -1,7 +1,8 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 header {
@@ -30,15 +31,15 @@ header ul li a:hover {
 }
 
 main {
-  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/66/57/13/32/700_FO66571332_d43163059589e393bd4f774b441303f4.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/carte-da-parati-spighe-di-grano-nel-campo-su-sfondo-bianco.jpg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("https://img.freepik.com/foto-gratuito/concetto-di-tovaglia-a-quadri-decorazione-rosso_53876-31714.jpg?size=626&ext=jpg");
+  background-repeat: round;
+  background-size: contain;
   padding: 50px;
 }
 
 main h2 {
   font-weight: bold;
-  color: #002d75;
+  color: black;
 }
 
 main .cards {
@@ -70,6 +71,7 @@ main .cards .card img:hover {
 
 main .cards .card img:hover h3 {
   display: block;
+  z-index: 10;
 }
 
 footer {
