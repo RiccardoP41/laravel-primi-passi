@@ -2,8 +2,29 @@ footer{
     background-color: $gold;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
     img{
-        width: 150px;
+        align-self: center;
+        width: 170px;
         height: auto;
+    }
+    .liste-footer{
+        display: flex;
+        ul{
+            font-size: 13px;
+            margin: 0 20px;
+            .titolo-lista{
+                font-size: 17px;
+                font-style: italic;
+            }
+        }
+    }
+    .info-footer{
+        ul li ul{
+            margin-bottom: 30px;
+            li{
+                font-style: oblique;
+            }
+        }
     }
 }

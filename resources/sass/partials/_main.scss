@@ -1,11 +1,14 @@
 main{
     background-image: url("https://img.freepik.com/foto-gratuito/concetto-di-tovaglia-a-quadri-decorazione-rosso_53876-31714.jpg?size=626&ext=jpg");
-    background-repeat: round;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px;
-    h2{
-        font-weight: bold;
-        color: black;
+    .immagne-main-home{
+        width: auto;
+        height: 100vh;
+        background-image: url("https://www.horecanews.it/wp-content/uploads/2019/10/La-Molisana-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .cards{
         display: flex;

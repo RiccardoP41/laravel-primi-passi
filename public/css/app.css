@@ -5,6 +5,29 @@
   font-family: "Oswald", sans-serif;
 }
 
+h2 {
+  font-weight: bold;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #002d75;
+}
+
+ul li a:hover {
+  color: #0080FF;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -13,33 +36,21 @@ header {
 
 header ul {
   display: flex;
-  list-style: none;
-}
-
-header ul li {
-  margin: 10px;
-}
-
-header ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #002d75;
-}
-
-header ul li a:hover {
-  color: #0080FF;
 }
 
 main {
   background-image: url("https://img.freepik.com/foto-gratuito/concetto-di-tovaglia-a-quadri-decorazione-rosso_53876-31714.jpg?size=626&ext=jpg");
-  background-repeat: round;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 50px;
 }
 
-main h2 {
-  font-weight: bold;
-  color: black;
+main .immagne-main-home {
+  width: auto;
+  height: 100vh;
+  background-image: url("https://www.horecanews.it/wp-content/uploads/2019/10/La-Molisana-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 main .cards {
@@ -78,10 +89,34 @@ footer {
   background-color: #f9cc82;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
 }
 
 footer img {
-  width: 150px;
+  align-self: center;
+  width: 170px;
   height: auto;
+}
+
+footer .liste-footer {
+  display: flex;
+}
+
+footer .liste-footer ul {
+  font-size: 13px;
+  margin: 0 20px;
+}
+
+footer .liste-footer ul .titolo-lista {
+  font-size: 17px;
+  font-style: italic;
+}
+
+footer .info-footer ul li ul {
+  margin-bottom: 30px;
+}
+
+footer .info-footer ul li ul li {
+  font-style: oblique;
 }
 

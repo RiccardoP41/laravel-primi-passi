@@ -1,3 +1,9 @@
-@include('partials.header')
+@extends('layout.app')
 
-@include('partials.footer')
+@section("titolo","Home")
+
+@section("main")
+    <div class="immagne-main-home">
+        
+    </div>
+@endsection
